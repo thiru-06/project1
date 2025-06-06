@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Employee Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: lightblue">
+  <div class="container">
+    <h1>Employee Management System</h1>
+    <form id="employeeForm">
+      <input type="text" id="empName" placeholder="Employee Name" required>
+      <input type="email" id="empEmail" placeholder="Email Address" required>
+      <input type="text" id="empRole" placeholder="Job Role" required>
+      <button type="submit">Add Employee</button>
+    </form>
+    <h2>Employee List</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody id="employeeTableBody">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
